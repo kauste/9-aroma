@@ -4,9 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Aroma</title>
 </head>
 <body>
-    CONTENT
+    <header class="main-header" >
+        <nav class="header-navigation">
+            <nav class="by-category">===</nav>
+            <img class="icon" src="./img/Icon.png" alt="icon">
+            <div class="header-right-nav">
+                <a class="right-nav" href="#">
+                    <i class="fa fa-search"></i>
+                    Search
+                </a>
+                <a class="right-nav" href="#" alt="">Cart</a>
+                <a class="right-nav" href="#" alt="">Log in</a>
+            </div>
+        </nav>
+    </header> 
+   <main>
+        <nav class="product-navigation">
+            <a class=about href="#"><span class="less-than" >&lt</span> &nbsp Go back</a>
+            <a class=about href="#">Product</a>
+            <a class=about href="#">Description</a>
+            <a class=about href="#">Information</a>
+            <a class=about href="#">Shipping</a>
+            <a class=about href="#">Reviews</a>
+        </nav>
+        <section class="main-info">
+            <div class="left-column">
+                <h6>Premium Cannabinoid Wellness</h6>
+                <h2>Full spectrum <span class="cbd">cbd</span> Oil, high grade hemp extract</h2>
+                <p>Cibdol <span class="cbd">cbd</span class="cbd"> oil 4&percnt; is among the strongest and purest <span class="cbd">cbd </span>oils on the market today</p>
+            </div>
+            <div class="right-column">
+                <p class="price">&pound;49.00</p>
+                <div class="cbd-amount-ml">
+                    <label class="amount" for="amount"> <span class="cbd">cbd</span> Oil option</label>
+                    <select class= "ml-options" name="amount" id="amount">
+                        <option class="ml" value="15ml">&#xf043; &nbsp; 15ml</i>
+                        </option>
+                        <option class="ml" value="20ml">20ml</option>
+                        <option class="ml" value="25ml">25ml</option>
+                        <option class="ml" value="30ml">30ml</option>
+                        <option class="ml" value="35ml">35ml</option>
+                    </select>
+                </div>
+                <div class="quantity-input">
+                    <label class="quantity" for="quantity">Quantity</label>
+                    <div class="quantity-choice">
+                        <button class="minus" type="button" for="quantity" id="quantity">&minus;</button>
+                        <p>9</p>
+                        <button class="plus" type="button" for="quantity" id="quantity">&plus;</button>
+                    </div>
+                </div>
+                <div class="choose-add"> 
+                        <button class=choose type="button">&plus;</button>
+                        <button class="add" type="button">Add to chart</button>
+                </div>
+            </div>
+        </section>
+        <section class="quality-section">
+            <div class="quality-column">
+                <img class="quality-icon" src="./img/leaf.png" alt="leaf icon">
+                <h6 class="quality">100&percnt; Natural</h6>
+                <p class="about-quality"> We offer the highest quality, 100&percnt; Natural <span class="cbd">cbd</span> oils made by <span class="cbd">apothem</span></p>
+            </div>
+            <div class="quality-column">
+                <img class="quality-icon" src="./img/science.png" alt="science icon">
+                <h6 class="quality">Swiss laboratory</h6>
+                <p class="about-quality"> Our oils are made in our Swiss Laboratories. Where we are Perfecting our product quality.</p>
+            </div>
+            <div class="quality-column">
+                <img class="quality-icon" src="./img/Tested.png" alt="science icon">
+                <h6 class="quality">tested &amp; analysed</h6>
+                <p class="about-quality"> We have normalized extensive Testing to confidencialy assert the Potential of our products.</p>
+            </div>
+            <div class="quality-column">
+                <img class="quality-icon" src="./img/drop.png" alt="science icon">
+                <h6 class="quality">Golden <span class="cbd">cbd</span> oil</h6>
+                <p class="about-quality"> We set the gold standart with our oils, maximizing the effectiveness of the cannabinoid</p>
+            </div>
+            <img class="big-bottle" src="./img/Big bottle.png">
+        </section>
+      
+    </main> 
+    
 </body>
 </html>

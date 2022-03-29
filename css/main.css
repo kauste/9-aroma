@@ -1,0 +1,329 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+
+.main-header {
+    background-color: white;
+    border-bottom: #EFEFEF solid 1px;
+    display: inline-block;
+    width:100%;
+    height:fit-content;
+    position: fixed;
+   
+}
+.main-header > .header-navigation {
+    float:left;
+    width: 99%;
+    height:50px;
+    margin-left:1%
+}
+
+.header-navigation > .by-category {
+    width:fit-content;
+    font-size: 10px;
+    float:left;
+    padding:5px;
+    padding-bottom: 13px;
+    padding-top: 17px;
+}
+
+.header-navigation > .icon {
+    height:20px;
+    margin-top: 15px;
+    float:left;
+    margin-left:3px;
+}
+
+
+.header-navigation > .header-right-nav {
+    float: right;
+    width: fit-content;
+}
+ .fa-search {
+     font-size: 6px;
+     margin-top: 6px;
+     
+ }
+    
+
+.header-right-nav > .right-nav {
+    float:left;
+   width: fit-content;
+    height: 50px;
+    font-size: 12px;
+    line-height: 1.2em;
+    text-decoration: none;
+    color: black;
+    border-left: #EFEFEF solid 1px;
+    padding: 15px;
+    padding-bottom:17.5px;
+}
+
+.header-right-nav > .right-nav:hover {
+    background-color: #E19C78;
+}
+
+
+.product-navigation {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    margin-top:52px;
+    border-bottom:  #E2E3E3 solid 1px;
+    background-color: white;
+    color:grey;
+    
+    
+
+}
+.product-navigation > .about {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 15px;
+    padding-top: 15px;
+    padding-bottom:19px;
+    float: left;
+}
+
+.product-navigation > .about:hover {
+    border-bottom: grey 1px solid;
+    color: black;
+}
+
+.product-navigation > .about:first-child {
+    margin-left:9%;
+    padding-right: 0px;
+    margin-right: 30px;
+    padding-left: 30px;
+    color: black
+}
+
+.product-navigation > .about:first-child:hover {
+    font-weight: bold;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.about > .less-than {
+    font-weight: bold;
+}
+
+
+body > main > .main-info {
+display: inline-block;
+width: 100%;
+height: 400px;
+}
+
+
+
+.main-info > .left-column {
+    width:27%;
+    float:left;
+    margin-left: 9%;
+    margin-top: 110px
+}
+
+.main-info > .left-column > h6 {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.main-info > .left-column > h2 {
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.main-info > .left-column > p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.cbd {
+    text-transform: uppercase;
+}
+.main-info > .right-column {
+    width:25%;
+    float: right;
+    margin-right: 9%;
+    margin-top: 120px;
+}
+
+.main-info > .right-column > .price {
+    margin-bottom: 15px;
+}
+.right-column > .cbd-amount-ml {
+    width:55%;
+    float: left;
+}
+
+.right-column > .cbd-amount-ml > .amount {
+    text-transform: capitalize;
+    font-size: 9px;
+    width:100%;
+    float: left;
+    
+}
+.right-column > .cbd-amount-ml > .ml-options {
+    text-transform: uppercase;
+    font-size: 10px; 
+    width:100%;
+    float: left;
+    padding:4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top:15px;
+}
+
+.right-column > .quantity-input{
+    width:30%;
+    margin-left:5%;
+    float:left;
+    font-size: 9px;
+    margin-bottom: 20px;
+    
+}
+.right-column > .quantity-input > .quantity-choice {
+    width: 100%;
+    float:left;
+    margin-top:15px
+}
+.right-column > .quantity-input > .quantity-choice > .minus, .right-column > .quantity-input > .quantity-choice > .plus{
+    height: 18px;
+    width: 18px;
+    float: left;
+    font-size: 16px;
+    line-height:10px;
+    border-radius: 50%;
+    background-color: white;
+    border:grey solid 1px;
+    cursor: pointer;
+}
+.right-column > .quantity-input > .quantity-choice > .plus{
+    float:right;
+}
+
+.right-column > .quantity-input > .quantity-choice > p {
+    float:left;
+    margin-left:19px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.right-column > .choose-add {
+    float: left;
+    width:100%;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.right-column > .choose-add > .choose {
+    float: left;
+    color: #E19C78;
+    background-color: white;
+    border: #E19C78 solid 1px;
+    width:10%;
+    padding-top:6px;
+    padding-bottom:4px
+
+}
+.right-column > .choose-add > .choose:hover{
+    cursor: pointer;
+    background-color: #E19C78;
+    color: white;
+}
+
+.right-column > .choose-add > .add {
+    background-color: #E19C78;
+    text-transform: uppercase;
+    color: white;
+    width:90%;
+    padding-bottom:6px;
+    padding-top:6px;
+    border: 0;
+}
+
+
+.right-column > .choose-add > .add {
+    cursor: pointer;
+}
+
+main > .quality-section {
+    height: fit-content;
+    width:100%;
+    display:inline-block;
+    background-color: #FDF9F2;
+    padding: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+}
+
+main > .quality-section > .quality-column {
+    width: 25%;
+    height: fit-content;
+    float: left;
+    border-bottom: grey solid 1px;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+main > .quality-section > .quality-column:nth-last-of-type(1n+3) {
+    margin-bottom: 30px;
+    
+}
+main > .quality-section > .quality-column:hover {
+    border-bottom:#E19C78 solid 1px;
+    cursor: pointer;
+}
+
+main > .quality-section > .quality-column > .quality-icon:hover {
+    border:#E19C78 solid 1px;
+}
+
+main > .quality-section > .quality-column:nth-child(2n + 1) {
+    margin-right: 50%;
+}
+
+main > .quality-section > .quality-column > .quality-icon  {
+    border: grey solid 1px;
+    padding: 7px;
+    border-radius: 50%;
+}
+    
+main > .quality-section > .quality-column > .quality {
+    font: black;
+    text-transform: capitalize; 
+}
+
+main > .quality-section > .quality-column > .about-quality {
+    color: grey;
+    font-size:10px;
+}
+.big-bottle {
+    width:150px;
+    height: 400px;
+    object-fit: contain;
+    position: absolute;
+    left:43%;
+    top: 0;
+    margin-top: -28%;
+    filter: drop-shadow(40px 40px 40px rgb(129, 129, 129));
+    
+}
