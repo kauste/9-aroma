@@ -183,8 +183,6 @@ body > main > .main-info {
     font-size: 9px;
     width:fit-content;
     float: left;
-    border: black solid 2px;
-    
 }
 .right-column > .cbd-amount-ml > .ml-options {
     text-transform: uppercase;
@@ -199,15 +197,18 @@ body > main > .main-info {
 
 .right-column > .quantity-input{
     width:35%;
-    margin-left:4%;
+    margin-left:25%;
     float:left;
     font-size: 9px;
 }
 
 .right-column > .quantity-input > .quantity-choice {
     width: 100%;
-    float:left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top:20px;
+   
 }
 
 .right-column > .quantity-input > .quantity-choice > .minus, .right-column > .quantity-input > .quantity-choice > .plus{
@@ -226,13 +227,7 @@ body > main > .main-info {
     background-color: grey;
 }
 
-.right-column > .quantity-input > .quantity-choice > .plus{
-    float:right;
-}
-
 .right-column > .quantity-input > .quantity-choice > p {
-    float:left;
-    margin-left:14px;
     font-size: 12px;
     cursor: pointer;
 }
